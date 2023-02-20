@@ -12,8 +12,6 @@ int main(void)
 	if (c == 'e' || c == 'q')
 {
 	c++;
-	putchar(c);	/*print the current character*/
-	c++;	/*move to the next character*/
 }
 	else
 {
