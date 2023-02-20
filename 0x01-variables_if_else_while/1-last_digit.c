@@ -7,9 +7,7 @@
  */
 int main(void)
 {
-	int n;
-
-	n=10;
+	int n=22;
 
 	int last_digit = abs(n) % 10;
 
