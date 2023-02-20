@@ -9,6 +9,8 @@ int main(void)
 {
 	int n;
 
+	n=10;
+
 	int last_digit = abs(n) % 10;
 
 	srand(time(0));
