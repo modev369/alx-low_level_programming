@@ -7,8 +7,8 @@ int main(void)
 {
 	char c = 'a';
 
-	do
-{
+	do {
+
 	if (c == 'e' || c == 'q')
 {
 	c++;
