@@ -17,6 +17,6 @@ int main(void)
 	putchar(i + 'a');	/*print letters a-f*/
 }
 	putchar('\n');	/*print newline character*/
-	
+
 	return (0);
 }
