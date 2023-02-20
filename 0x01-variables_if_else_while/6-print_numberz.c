@@ -5,12 +5,12 @@
  */
 int main(void)
 {
-	char c = '0';
+	int num = 0;
 
-	while (c <= '9')
+	while (num <= 9)
 {
-	putchar(c);	/*print the current character*/
-	c++;	/*move to the next character*/
+	putchar(num + '0');	/*print the current digit*/
+	num++;	/*move to the next digit*/
 }
 	putchar('\n');	/*print a newline character at the end*/
 
