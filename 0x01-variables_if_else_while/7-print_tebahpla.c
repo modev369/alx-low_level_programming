@@ -7,10 +7,10 @@ int main(void)
 {
 	char m = 'z';
 
-	while (m => 'a')
+	while (m >= 'a')
 {
 	putchar(m);	/*print the current character*/
-	m++;	/*move to the next character*/
+	m--;	/*move to the next character*/
 }
 	putchar('\n');	/*print a newline character at the end*/
 
