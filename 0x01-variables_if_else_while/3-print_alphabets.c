@@ -16,8 +16,8 @@ int main(void)
 }
 	while (q <= 'Z')
 {
-	putchar(c);     /*print the current character*/
-	c++;    /*move to the next character*/
+	putchar(q);     /*print the current character*/
+	q++;    /*move to the next character*/
 }
 	putchar('\n');	/*print a newline character at the end*/
 
