@@ -1,0 +1,4 @@
+chmod +x $(ls -tp | head -n 1)
+git add .
+git commit -m my commit
+git push

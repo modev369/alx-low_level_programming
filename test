@@ -1,0 +1,19 @@
+man pwd: The pwd command stands for "print working directory". The pwd command prints the current working directory to the terminal. This is useful for identifying the path to the current directory when navigating the file system.
+
+man ls: The ls command stands for "list directory contents". The ls command lists the contents of a directory, including files and subdirectories. It can be used with various options to modify the output, such as showing hidden files or displaying the files in a long format.
+
+man cd: The cd command stands for "change directory". The cd command is used to navigate the file system by changing the current working directory to a different directory. It takes a path as an argument, which can be either an absolute or relative path.
+
+man less: The less command is a pager that is used to view the contents of a file on the terminal. The less command displays the contents of a file one page at a time and allows the user to scroll up and down, search for text, and navigate the file using various commands.
+
+man touch: The touch command is used to create a new file or update the timestamp of an existing file. If the file does not exist, touch creates an empty file with the specified name. If the file already exists, touch updates the timestamp to the current time.
+
+man cp: The cp command stands for "copy". The cp command is used to copy files or directories from one location to another. It takes two arguments - the source file or directory and the destination directory.
+
+man mv: The mv command stands for "move". The mv command is used to move files or directories from one location to another. It takes two arguments - the source file or directory and the destination directory.
+
+man rm: The rm command stands for "remove". The rm command is used to delete files or directories. By default, rm does not prompt for confirmation before deleting files, so it is important to use it with caution.
+
+man mkdir: The mkdir command stands for "make directory". The mkdir command is used to create a new directory with the specified name. It takes one argument - the name of the directory to be created.
+
+man rmdir: The rmdir command stands for "remove directory". The rmdir command is used to delete an empty directory. Unlike rm, rmdir does not delete the contents of a directory, so it can only be used to delete directories that do not contain any files or subdirectories.
