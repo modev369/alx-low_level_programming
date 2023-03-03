@@ -1,0 +1,5 @@
+#!/bin/bash
+chmod $(ls -tp | head -n 1)
+git add .
+git commit -m 'mohamed ali signature'
+git push
