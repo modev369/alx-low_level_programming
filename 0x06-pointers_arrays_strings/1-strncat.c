@@ -1,22 +1,22 @@
 #include "main.h"
 
-char *_strcat(char *dest, char *src)
+char *_strncat(char *dest, char *src, int n)
 {
-	int i, j;
-
-	i = 0;
-	while (dest[i] != '\0') {
+	char *ptr = dest;
+	// Move ptr to the end of dest
+	while (*ptr != '\0')
+	{
+	ptr++;
+	}
+	// Append at most n bytes from src
+	int i = 0;
+	while (src[i] != '\0' && i < n)
+	{
+	*ptr = src[i];
+	ptr++;
 	i++;
-}
-
-	j = 0;
-	while (src[j] != '\0') {
-	dest[i] = src[j];
-	i++;
-	j++;
-}
-
-	dest[i] = '\0';
-
+	}
+	// Add terminating null byte
+	*ptr = '\0';
 	return (dest);
 }
